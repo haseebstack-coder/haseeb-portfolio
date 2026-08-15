@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Haseeb Ahmad - Full Stack Web Developer specializing in Laravel, PHP, and modern web technologies. Based in Mianwali, Pakistan.">
+    <meta name="keywords" content="web developer, full stack, Laravel, PHP, MySQL, JavaScript, Mianwali, Pakistan">
+    <meta name="author" content="Haseeb Ahmad">
+    <meta property="og:title" content="Haseeb Ahmad | Full Stack Web Developer">
+    <meta property="og:description" content="Full Stack Web Developer specializing in Laravel, PHP, and modern web technologies.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Haseeb Ahmad | Full Stack Web Developer">
+    <meta name="twitter:description" content="Full Stack Web Developer specializing in Laravel, PHP, and modern web technologies.">
+    <title>Haseeb Ahmad | Full Stack Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Haseeb<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Haseeb Ahmad</h1>
+                <h2 class="hero-title"><span class="highlight" id="typingText"></span><span class="typing-cursor">|</span></h2>
+                <p class="hero-description">I build modern, responsive web applications with clean code and efficient architecture. Let's turn your ideas into reality.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/haseebstack-coder" class="social-link" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/haseeb-ahmad-0abbaa424" class="social-link" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://x.com/Haseebstack" class="social-link" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:haseeb.stack@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-shape">
+                    <div class="code-block">
+                        <pre><code><span class="code-keyword">&lt;?php</span>
+<span class="code-variable">$developer</span> = [
+    <span class="code-string">'name'</span> => <span class="code-string">'Haseeb Ahmad'</span>,
+    <span class="code-string">'role'</span> => <span class="code-string">'Full Stack Web Developer'</span>,
+    <span class="code-string">'location'</span> => <span class="code-string">'Mianwali, Pakistan'</span>,
+];</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I'm a passionate Full Stack Web Developer from Pakistan. I specialize in building modern, responsive web applications using Laravel, PHP, and clean frontend technologies. I'm driven by the challenge of turning complex problems into simple, elegant solutions — and I'm constantly learning to push my craft further.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="1">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Projects Done</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="8">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-php"></i></div>
+                    <h3>PHP</h3>
+                    <p>Core PHP programming and modern features</p>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-laravel"></i></div>
+                    <h3>Laravel</h3>
+                    <p>MVC framework, Eloquent ORM, Blade templates</p>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>MySQL</h3>
+                    <p>Database design, queries, and optimization</p>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" style="width: 65%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup and accessible structure</p>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                    <h3>CSS3</h3>
+                    <p>Responsive layouts, Flexbox, Grid, animations</p>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+                    <h3>JavaScript</h3>
+                    <p>DOM manipulation, ES6+, fetch API</p>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" style="width: 65%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                    <h3>Git</h3>
+                    <p>Version control, branching, collaboration</p>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>REST APIs</h3>
+                    <p>API design, authentication, integration</p>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" style="width: 60%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Experience</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">May 2026 - Present</span>
+                        <h3>Self-taught Full Stack Developer</h3>
+                        <h4>Independent Learning</h4>
+                        <p>Completed an intensive self-study program covering PHP fundamentals, Laravel framework, MySQL database management, frontend development with HTML/CSS/JS, RESTful API development, and Git version control. Built real-world projects including a full e-commerce platform with product management, cart, checkout, and bilingual support.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-alt" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="fullstack"
+                     data-id="1"
+                     data-title="Bhachar Mobiles &amp; Electronics"
+                     data-desc="Full-featured e-commerce platform for mobile phones and electronics with product management, cart system, checkout, voice search, dark mode, and bilingual support (English/Urdu). Built as a collaborative project using modern web technologies."
+                     data-tags="Laravel,Tailwind CSS,Alpine.js,PWA"
+                     data-icon="fas fa-shopping-cart"
+                     data-image=""
+                     data-live="https://bhacharmobiles.com"
+                     data-github="#"
+                     data-views="0">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Bhachar Mobiles &amp; Electronics</h3>
+                        <p>Full-featured e-commerce platform for mobile phones and electronics with product management, cart system, checkout, voice search, dark mode, and bilingual support (English/Urdu). Built as a collaborative project using modern web technologies.</p>
+                        <div class="project-tags">
+                            <span>Laravel</span>
+                            <span>Tailwind CSS</span>
+                            <span>Alpine.js</span>
+                            <span>PWA</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://bhacharmobiles.com" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="modal-overlay" id="projectModal">
+        <div class="modal">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-icon" id="modalIcon"></div>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDesc"></p>
+            <div class="modal-tags" id="modalTags"></div>
+            <div class="modal-links">
+                <a href="#" class="btn btn-primary" id="modalLive" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="#" class="btn btn-outline" id="modalGithub" target="_blank"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p class="contact-text">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:haseeb.stack@gmail.com">haseeb.stack@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Mianwali, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fab fa-github"></i></div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/haseebstack-coder" target="_blank">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <p class="contact-text">Have a question or want to work together? Send me an email and I'll get back to you as soon as possible.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/haseeb-ahmad-0abbaa424" target="_blank">Connect with me</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fab fa-twitter"></i></div>
+                            <div>
+                                <h4>Twitter</h4>
+                                <a href="https://x.com/Haseebstack" target="_blank">Follow me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#" class="footer-logo">Haseeb<span>.</span></a>
+                <p>Building modern web experiences with clean code and efficient architecture.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-socials">
+                <h4>Connect</h4>
+                <a href="https://github.com/haseebstack-coder" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/haseeb-ahmad-0abbaa424" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://x.com/Haseebstack" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:haseeb.stack@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Haseeb Ahmad. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
