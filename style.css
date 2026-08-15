@@ -823,9 +823,10 @@ img {
 
 .footer-container {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr auto;
     gap: 40px;
     margin-bottom: 32px;
+    align-items: start;
 }
 
 .footer-logo {
@@ -875,7 +876,7 @@ img {
 .footer-socials {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 12px;
 }
 
@@ -998,6 +999,7 @@ img {
     }
 
     .footer-socials {
+        flex-wrap: wrap;
         justify-content: center;
     }
 }
